@@ -19,15 +19,16 @@
   }
   
   .navbar-logo {
+    display: flex;
     color: #fff;
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
     text-decoration: none;
-    font-size: 1.2rem;
-    display: flex;
-    align-items: center;
+    font-size: 1.8rem;
     width: 25%;
+    white-space: nowrap;
+    align-items: center;
   }
   
   .navbar-logo-png{
@@ -37,7 +38,7 @@
 
   .navbar-txt-logo{
     font-size: 2rem;
-
+    margin-left: 3%;
   }
 
   .fa-typo3 {
@@ -105,7 +106,7 @@
     }
   
     .nav-menu.active {
-      background: #242222;
+      background: #0c2b5a;
       left: 0;
       opacity: 1;
       transition: all 0.5s ease;
@@ -129,7 +130,7 @@
       position: absolute;
       top: 0;
       left: 0;
-      transform: translate(25%, 50%);
+      transform: translate(20%, 5%);
     }
   
     .menu-icon {
