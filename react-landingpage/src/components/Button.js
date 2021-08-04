@@ -7,6 +7,8 @@ const STYLES = ['btn--primary', 'btn--outline']
 
 const SIZES = ['btn--medium', 'btn--large']
 
+const TYPES = ['/contact','/aboutme','/services',]
+
 export const Button = ({
     children, 
     type, 
@@ -14,11 +16,13 @@ export const Button = ({
     buttonStyle, 
     buttonSize }) => {
        const checkButtonStyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0]     
-       
+    
        const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0]
 
+       const checkButtonType = TYPES.includes(type) ? type : TYPES[0]
+
        return(
-           <Link to="/contact" className="btn-mobile">
+           <Link to={checkButtonType} className="btn-mobile">
                 <button className={`btn ${checkButtonStyle} ${checkButtonSize}`}>
                     {children}
                 </button>

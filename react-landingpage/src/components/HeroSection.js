@@ -7,14 +7,14 @@ function HeroSection() {
     return(
         <div className="hero-container">
             <video src="/videos/video-1.mp4" autoPlay loop muted/>
-            <h1>Consultoria Tributária</h1>
-            <p>Venha</p>
+            <h1>Werner Borges</h1>
+            <p>Especializado em Consultoria tributária</p>
             <div className="hero-btns">
-                <Button className="btns" buttonStyle="btn--outline" buttonSize="btn--large">
-                    Clique aqui
+                <Button type="/aboutme"className="btns" buttonStyle="btn--outline" buttonSize="btn--large">
+                    Saiba mais
                 </Button>
 
-                <Button className="btns" buttonStyle="btn--primary" buttonSize="btn--large">
+                <Button type="/contact" className="btns" buttonStyle="btn--primary" buttonSize="btn--large">
                     Entre em contato
                 </Button>
             </div>

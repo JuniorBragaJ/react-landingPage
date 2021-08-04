@@ -62,7 +62,7 @@ function NavBar() {
                         </Link>                        
                     </li>
                 </ul>
-                {button && <Button buttonStyle="btn--outline" buttonSize="btn--medium">Contato</Button>}
+                {button && <Button type="/contact" buttonStyle="btn--outline" buttonSize="btn--medium">Contato</Button>}
             </div>
         </nav>
     </>
