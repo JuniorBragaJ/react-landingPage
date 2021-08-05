@@ -1,0 +1,15 @@
+.footer-container {
+    background-color: #1f447a;
+    padding: 4rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.footer-contact {
+ color: #fff;
+}
+
+.footer-contact-heading {
+}

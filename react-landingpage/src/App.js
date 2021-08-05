@@ -6,6 +6,7 @@ import Home from './components/pages/Home';
 import AboutMe from './components/pages/AboutMe';
 import Services from './components/pages/Services';
 import Contact from './components/pages/Contact';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -19,6 +20,9 @@ function App() {
         <Route path="/services" exact component={Services}/>
         <Route path="/contact" exact component={Contact}/>
       </Switch>
+      <Footer>
+        
+      </Footer>
     </Router>
     </>
   );
