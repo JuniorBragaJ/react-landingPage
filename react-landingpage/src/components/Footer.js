@@ -37,8 +37,61 @@ function Footer() {
                         <Link to="/"></Link>
                     </div>
                 </div>
-
             </div>
+
+
+    <section class='social-media'>
+        <div class='social-media-wrap'>
+          <small class='website-rights'>Werner Borges © 2021</small>
+          <div class='social-icons'>
+            <Link
+              class='social-icon-link whatsapp'
+              to='/'
+              target='_blank'
+              aria-label='Whatsapp'
+            >
+              <i class='fab fa-whatsapp' />
+            </Link>
+            
+            <Link
+              class='social-icon-link instagram'
+              to='/'
+              target='_blank'
+              aria-label='Instagram'
+            >
+              <i class='fab fa-instagram' />
+            </Link>
+
+            {/* <Link
+              class='social-icon-link youtube'
+              to='/'
+              target='_blank'
+              aria-label='Youtube'
+            >
+              <i class='fab fa-youtube' />
+            </Link>  */}
+
+            {/* <Link
+              class='social-icon-link twitter'
+              to='/'
+              target='_blank'
+              aria-label='Twitter'
+            >
+              <i class='fab fa-twitter' />
+            </Link> */}
+
+            <Link
+              class='social-icon-link linkedin'
+              to='/'
+              target='_blank'
+              aria-label='LinkedIn'
+            >
+              <i class='fab fa-linkedin' />
+            </Link>
+
+          </div>
+        </div>
+    </section>
         </div>
     )
 }
