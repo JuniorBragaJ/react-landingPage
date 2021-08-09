@@ -10,6 +10,7 @@ function CardItem(props) {
 
                 <figure className="cards__item_pic-wrap" data-category={props.label}>
                     <img className="cards__item__img"src={props.src} alt="Services"/>
+                    <div className="cards__item__overlay">{props.content}</div>
                 </figure>
 
                 <div className="cards__item__info">
