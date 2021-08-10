@@ -31,7 +31,10 @@ function NavBar() {
         <nav className="navbar">
             <div className="navbar-container">
                 <Link to='/' className="navbar-logo">
-                    <img className="navbar-logo-png" src="/images/logo.png"/>
+                    <div className="navbar-logo-wrap">
+                        <div className="navbar-logo-w">W</div>
+                        <div className="navbar-logo-b">B</div>
+                    </div>
                     <i className="navbar-txt-logo">Werner Borges</i>
                 </Link>
                 <div className="menu-icon" onClick={handleClick}>

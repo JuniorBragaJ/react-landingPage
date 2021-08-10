@@ -27,17 +27,30 @@
     text-decoration: none;
     font-size: 1.8rem;
     width: 25%;
+    height: 80px;
     white-space: nowrap;
     align-items: center;
   }
-  
-  .navbar-logo-png{
-    width: 82.2px;
-    height: 67px;
+
+  .navbar-logo-wrap{
+    display: flex;
+    flex-direction: row;
+    font-size: 4.2rem;
+    margin-top: 2%;
+    text-shadow: rgb(42, 42, 42) 0.1em 0.1em 0.2em
+  }
+
+  .navbar-logo-w {
+
+  }
+
+  .navbar-logo-b {
+    transform: translateX(-10px);
+    margin-top: 15%;
   }
 
   .navbar-txt-logo{
-    font-size: 2rem;
+    font-size: 2.9rem;
     margin-left: 3%;
   }
 
@@ -91,6 +104,10 @@
   @media screen and (max-width: 960px) {
     .NavbarItems {
       position: relative;
+    }
+    
+    .navbar-txt-logo {
+      display: none;
     }
   
     .nav-menu {
