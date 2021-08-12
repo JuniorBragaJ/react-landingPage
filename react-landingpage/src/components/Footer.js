@@ -26,7 +26,7 @@ function Footer() {
                     </form>
                 </div>
             </section>
-            <div className="footer-links">
+            {/* <div className="footer-links">
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
                         <h2>Sobre Mim</h2>
@@ -37,7 +37,7 @@ function Footer() {
                         <Link to="/"></Link>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
 
     <section class='social-media'>
