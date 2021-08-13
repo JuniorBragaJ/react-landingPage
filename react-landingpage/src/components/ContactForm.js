@@ -2,7 +2,7 @@ import React from 'react';
 import emailjs from 'emailjs-com';
 import './ContactForm.css';
 
-
+/* npm install emailjs-com --save */
 
 export default function ContactUs() {
 
@@ -21,13 +21,23 @@ export default function ContactUs() {
 
   return (
     <form className="contact-form" onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Enviar" />
+      <h1 className="contact-form-header">Entre em contato!</h1>
+      <div className="contact-form-name-wrapper">
+        <p className="contact-form-label-name">Nome:</p>
+        <input type="text" name="user_name" className="contact-form-name-input"/>
+      </div>
+      
+      <div className="contact-form-email-wrapper">
+      <p className="contact-form-label-name" >Email:</p>
+      <input type="email" name="user_email" className="contact-form-email-input"/>
+      </div>
+
+      <div className="contact-form-message-wrapper">
+        <p className="contact-form-label-message">Mensagem:</p>
+        <textarea name="message" className="contact-form-message-textarea"/>
+      </div>
+
+        <input type="submit" value="Enviar!" className="contact-form-send"/>
     </form>
   );
 }

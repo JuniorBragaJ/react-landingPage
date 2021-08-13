@@ -8,25 +8,7 @@ function Footer() {
     return (
         <div className="footer-container">
             <section className="footer-contact">
-                <p className="footer-contact-heading">
-                    Entre em contato comigo!
-                </p>
-                <p className="footer-contact-text">
-                    A qualquer hora e a qualquer momento
-                </p>
-                <div className="input-areas">
-                    <form>
-                        <input 
-                        className="footer-input"
-                        type="email"
-                        name="email"
-                        placeholder="Digite seu e-mail">
-                        </input>
-                        <Button buttonStyle="btn--outline">Enviar!</Button>
-
-                    </form>
-                </div>
-                <ContactUs/>
+                
             </section>
 
 
