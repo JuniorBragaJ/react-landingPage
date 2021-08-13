@@ -8,7 +8,7 @@ function HeroSection() {
         <div className="hero-container">
             {/* <video src="/videos/video-1.mp4" autoPlay loop muted/> */}
             <h1>Werner Borges</h1>
-            <p>Especializado em Consultoria tributária</p>
+            <p>Consultoria tributária</p>
             <div className="hero-btns">
                 <Button type="/aboutme"className="btns" buttonStyle="btn--outline" buttonSize="btn--large">
                     Saiba mais

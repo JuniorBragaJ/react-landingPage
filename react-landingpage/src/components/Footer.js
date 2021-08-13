@@ -2,6 +2,7 @@ import React from 'react';
 import { Button } from './Button.js';
 import './Footer.css';
 import { Link } from 'react-router-dom';
+import ContactUs from './ContactForm.js';
 
 function Footer() {
     return (
@@ -25,19 +26,8 @@ function Footer() {
 
                     </form>
                 </div>
+                <ContactUs/>
             </section>
-            {/* <div className="footer-links">
-                <div className="footer-link-wrapper">
-                    <div className="footer-link-items">
-                        <h2>Sobre Mim</h2>
-                        <Link to="/aboutMe">Como funciona</Link>
-                        <Link to="/"></Link>
-                        <Link to="/"></Link>
-                        <Link to="/"></Link>
-                        <Link to="/"></Link>
-                    </div>
-                </div>
-            </div> */}
 
 
     <section class='social-media'>
@@ -46,7 +36,7 @@ function Footer() {
           <div class='social-icons'>
             <Link
               class='social-icon-link whatsapp'
-              to='/'
+              to= {{ pathname: "https://wa.me/+554896617103"}}
               target='_blank'
               aria-label='Whatsapp'
             >
@@ -55,7 +45,7 @@ function Footer() {
             
             <Link
               class='social-icon-link instagram'
-              to='http://instagram.com/luis.weerner'
+              to={{ pathname: "https://instagram.com/luis.weerner" }}
               rel="noopener noreferrer"
               target='_blank'
               aria-label='Instagram'
@@ -65,7 +55,7 @@ function Footer() {
 
             <Link
               class='social-icon-link linkedin'
-              to='/'
+              to={{ pathname: "https://www.linkedin.com/in/luis-eduardo-werner"}}
               target='_blank'
               aria-label='LinkedIn'
             >

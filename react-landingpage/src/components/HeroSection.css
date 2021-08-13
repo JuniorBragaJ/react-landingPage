@@ -23,12 +23,12 @@ video {
     color: #fff;
     font-size: 80px;
     margin-top: -100px;
-    text-shadow: black 0.1em 0.1em 0.2em;
+    text-shadow: black 0.05em 0.05em 0.2em;
 }
 
 .hero-container > p {
     text-align: center;
-    text-shadow: black 0.1em 0.1em 0.2em;
+    text-shadow: black 0.05em 0.05em 0.2em;
     margin-top: 8px;
     color: #fff;
     font-size: 32px;
