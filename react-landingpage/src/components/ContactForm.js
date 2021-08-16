@@ -16,6 +16,7 @@ export default function ContactUs() {
           console.log(error.text);
       });
       e.target.reset();
+      window.alert("Mensagem enviada com sucesso")
   }
 
 
