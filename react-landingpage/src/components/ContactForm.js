@@ -25,7 +25,7 @@ export default function ContactUs() {
       <h1 className="contact-form-header">Entre em contato!</h1>
       <div className="contact-form-name-wrapper">
         <p className="contact-form-label-name">Nome:</p>
-        <input type="text" name="user_name" className="contact-form-name-input" required maxLength="60"/>
+        <input type="text" name="user_name" className="contact-form-name-input" required minLength="2" maxLength="60"/>
       </div>
       
       <div className="contact-form-email-wrapper">
@@ -35,7 +35,7 @@ export default function ContactUs() {
 
       <div className="contact-form-message-wrapper">
         <p className="contact-form-label-message">Mensagem:</p>
-        <textarea name="message" className="contact-form-message-textarea" required maxLength="500"/>
+        <textarea name="message" className="contact-form-message-textarea" required minLength="15" maxLength="500"/>
       </div>
 
         <input type="submit" value="Enviar!" className="contact-form-send"/>

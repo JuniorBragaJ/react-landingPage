@@ -14,7 +14,7 @@ function Footer() {
 
     <section class='social-media'>
         <div class='social-media-wrap'>
-          <small class='website-rights'>Werner Borges © 2021</small>
+          <small class='website-rights'>Copyright © 2021 All rights reserved | Desenvolvido por <Link className="website-rights-dev-contact">Junior Braga</Link></small>
           <div class='social-icons'>
             <Link
               class='social-icon-link whatsapp'
