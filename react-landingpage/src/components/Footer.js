@@ -2,20 +2,15 @@ import React from 'react';
 import { Button } from './Button.js';
 import './Footer.css';
 import { Link } from 'react-router-dom';
-import ContactUs from './ContactForm.js';
+
 
 function Footer() {
     return (
         <div className="footer-container">
-            <section className="footer-contact">
-                
-            </section>
-
-
-    <section class='social-media'>
-        <div class='social-media-wrap'>
-          <small class='website-rights'>Copyright © 2021 All rights reserved | Desenvolvido por <Link className="website-rights-dev-contact">Junior Braga</Link></small>
-          <div class='social-icons'>
+          <section class='social-media'>
+            <div class='social-media-wrap'>
+              <small class='website-rights'>Copyright © 2021 All rights reserved | Desenvolvido por <Link className="website-rights-dev-contact">Junior Braga</Link></small>
+                <div class='social-icons'>
             <Link
               class='social-icon-link whatsapp'
               to= {{ pathname: "https://wa.me/+554896617103"}}
@@ -44,9 +39,10 @@ function Footer() {
               <i class='fab fa-linkedin' />
             </Link>
 
-          </div>
-        </div>
-    </section>
+
+              </div>
+            </div>
+          </section>
         </div>
     )
 }
